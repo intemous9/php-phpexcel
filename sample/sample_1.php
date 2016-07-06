@@ -30,4 +30,4 @@ $sheet->setCellValue('C2', 300);
 
 // 出力
 $writer = PHPExcel_IOFactory::createWriter($book, 'Excel2007');
-$writer->save('output/sample_1.xlsx');
+$writer->save(__DIR__ . '/output/sample_1.xlsx');
